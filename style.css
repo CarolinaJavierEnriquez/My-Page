@@ -1,0 +1,180 @@
+* {
+box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Handlee-Regular;
+}
+
+@font-face {
+    font-family: Handlee-Regular;
+    src: url(Handlee-Regular.ttf);
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navigation{
+	height: 8%;
+	width: 100%;
+	background-color: rgba(212, 20, 90, 0.94);
+	position: fixed;
+	z-index: 10;
+}
+
+.lista{
+	position: relative;
+	min-width: 33%;
+	text-align: center;
+	top: 18%;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 25px;
+	color: white;
+}
+
+.foto{
+  font-size: 0;
+}
+
+img{
+	width: 100%;
+}
+
+.inferior1{
+	margin: 0 auto;
+	background-image: url(tile2.png)
+}
+
+.contenido1{
+	padding: 5%;
+}
+
+.caja1{
+	float: left;
+    width: 20%;
+    left: 10%;
+    position: relative;
+}
+
+.caja2{
+	float: left;
+	width: 80%;
+	left: 5%;
+	position: relative;
+}
+
+.img-perfil{
+	width: 100%;
+	border: black 1px solid;
+	padding: 1.5%  1.5%;
+}
+
+.texto{
+	text-align: center;
+	padding: 0px 13%;
+	top: 50px;
+}
+
+p{
+  font-size: 20px;
+  }
+
+h1{
+	text-align: center;
+	padding: 3% 0;
+	color: #D4145A;
+}
+
+.inferior2{
+ margin: 0 auto;
+}
+
+.contenido2{
+padding: 3%;
+position: relative;
+}
+
+.texto2{
+ padding: 3px;
+}
+
+.texto2 h1{
+	padding:3px;
+	text-align: center;
+	color: #D4145A
+}
+
+.texto2 h3{
+	padding:20px;
+	text-align: center;
+	color: #D4145A
+}
+
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.cajafotos{
+padding:3% 5%;
+}
+
+.grid1 img{
+	width: 25%;
+	border-radius: 50%;
+	float: left;
+	padding: 7px;
+	border: 1px solid #D4145A;
+	margin: 0 auto;
+}
+
+
+.inferior3{
+	margin: 0 auto;
+	background-image: url(tile2.png);
+}
+
+.contenido3{
+	padding: 3% 3% 2%;
+	position: relative;
+}
+
+.texto3 h1{
+	padding:3px;
+	text-align: center;
+	color: #D4145A
+}
+
+
+.grid2 img{
+	position: relative;
+	width: 33%;
+    float: left;
+	padding: 7px;
+}
+
+.redes{
+	padding: 0 5%;
+}
+
+.grid2{
+	width: 30%;
+    margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+    color:black;
+}
